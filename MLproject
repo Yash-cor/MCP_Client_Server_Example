@@ -1,0 +1,8 @@
+name: churn_prediction
+conda_env: conda.yaml
+entry_points:
+  main:
+    parameters:
+      data_path: path
+      test_size: {type: float, default: 0.2}
+    command: "python train.py --data_path {data_path} --test_size {test_size}"

@@ -1,0 +1,32 @@
+
+---
+
+### **2. .gitignore**
+```gitignore
+# MLflow
+mlruns/
+mlflow.db
+mlruns.db
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+*.pkl
+*.parquet
+
+# Notebooks
+.ipynb_checkpoints/
+
+# System
+.DS_Store

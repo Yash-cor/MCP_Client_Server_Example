@@ -1,0 +1,11 @@
+name: churn_prediction
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+    - mlflow
