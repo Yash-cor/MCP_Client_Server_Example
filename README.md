@@ -1,8 +1,9 @@
-# 🧠 Churn Prediction with MLflow
+# MCP Client Server Example
 
 This project leverages a churn prediction model from [rupesh40/mlflow-churn-prediction](https://github.com/rupesh40/mlflow-churn-prediction).
-MCP client uses the model to predict.
-MCP server provides data to MCP client
+<br />MCP client uses the model to predict.
+<br />MCP server provides data to MCP client
+
 ---
 
 ## 🚀 Quick Start
