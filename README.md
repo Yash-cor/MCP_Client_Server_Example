@@ -14,4 +14,4 @@ Follow these steps to clone the project and run predictions:
 https://github.com/Yash-cor/MCP_Client_Server_Example.git
 ### 2. Run the following command inside project directory
 ```bash
-python mcp_client --data_path predict.csv
+python mcp_client.py --data_path predict.csv
